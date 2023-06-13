@@ -1,0 +1,104 @@
+body {
+    margin: .5%;
+}
+
+header {
+    background: linear-gradient(90deg, #3643A9, #1C094D);
+    color: white;
+    padding: 1% 0 1% 50%;
+    font-size: xx-large;
+    margin-bottom: 1%;
+}
+
+main {
+    display: flex;
+}
+
+#search-bar {
+    margin: 5% 0;
+    width: 20vw;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.search-section {
+    width: 20vw;
+}
+
+.search {
+    border-bottom: .75px solid black;
+    padding-bottom: 15px;
+}
+
+.search-button {
+    width: 100%;
+    padding: 1%;
+    background-color: #567BDC;
+    color: white;
+    border-radius: 3px;
+    border: 3px solid #567BDC;
+}
+
+.search-header {
+    font-size: x-large;
+}
+
+.search-history {
+    padding-top: 15px;
+}
+
+.history-button {
+    width: 100%;
+    padding: 1%;
+    background-color: #9E9E9E;
+    border-radius: 3px;
+    border: 3px solid #9E9E9E;
+    margin-bottom: 12px;
+}
+
+.forecast-section {
+    margin: 0 5% 0 1%;
+    width: 65%;
+}
+
+.current-forecast {
+    border: 1.5px solid black;
+    margin-bottom: 15px;
+    padding: 1% 0 .5% .5%
+}
+
+.current-forecast > p {
+    margin: 2% 0;
+}
+
+.current-header {
+    font-size: x-large;
+}
+
+.five-day-forecast {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.five-day-header {
+    font-size: larger;
+    flex-basis: 100%;
+}
+
+.future-header {
+    font-size: large;
+}
+
+.future-forecast {
+    background: #262E3E;
+    color: white;
+    padding: 10px 0 20px 7px;
+    width: 169px;
+    height: 222px;
+    flex-basis: calc(20% - 20px);
+    margin: 10px 20px 0 0;
+}
+
+.future-forecast > p {
+    margin: 25px 0;
+}

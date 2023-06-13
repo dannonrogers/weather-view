@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/reset.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Weather View</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+       <section class="search-section">
+        <div class="search">
+            <h2 class="search-header">Search for a city:</h2>
+            <form action="">
+               <input type="text" name="search-bar" id="search-bar">
+               <button class="search-button">Search</button>
+            </form>
+        </div> 
+
+        <div class="search-history">
+            <!-- This button is a template and will need to be dynamically rendered after searching (local storage) -->
+            <button class="history-button">Atlanta</button>
+            <button class="history-button">Atlanta</button>
+            <button class="history-button">Atlanta</button>
+        </div>
+       </section>
+
+       <section class="forecast-section">
+        <div class="current-forecast">
+            <h2 class="current-header">Atlanta (9/13/2022) - icon</h2>
+            <p>Temp: 76.62°F</p>
+            <p>Wind: 8.43 MPH</p>
+            <p>Humidity: 44 %</p>
+        </div>
+        <div class="five-day-forecast">
+            <h3 class="five-day-header">5-Day Forecast:</h3>
+            <div class="future-forecast">
+                <h4 class="future-header">9/14/2022</h4>
+                <p>Temp: 63.55°F</p>
+                <p>Wind: 3.94 MPH</p>
+                <p>Humidity: 63 %</p>
+            </div>
+            <div class="future-forecast">
+                <h4 class="future-header">9/15/2022</h4>
+                <p>Temp: 63.55°F</p>
+                <p>Wind: 3.94 MPH</p>
+                <p>Humidity: 63 %</p>
+            </div>
+            <div class="future-forecast">
+                <h4 class="future-header">9/16/2022</h4>
+                <p>Temp: 63.55°F</p>
+                <p>Wind: 3.94 MPH</p>
+                <p>Humidity: 63 %</p>
+            </div>
+            <div class="future-forecast">
+                <h4 class="future-header">9/17/2022</h4>
+                <p>Temp: 63.55°F</p>
+                <p>Wind: 3.94 MPH</p>
+                <p>Humidity: 63 %</p>
+            </div>
+            <div class="future-forecast">
+                <h4 class="future-header">9/18/2022</h4>
+                <p>Temp: 63.55°F</p>
+                <p>Wind: 3.94 MPH</p>
+                <p>Humidity: 63 %</p>
+            </div>
+        </div>
+       </section>
+    </main>
+    <script src="./Assets/js/script.js"></script>
+</body>
+</html>
