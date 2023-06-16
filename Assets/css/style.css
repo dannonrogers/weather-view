@@ -14,11 +14,20 @@ main {
     display: flex;
 }
 
-#search-bar {
+#search-input {
     margin: 5% 0;
     width: 20vw;
     height: 35px;
     padding-left: 10px;
+}
+
+#search-button {
+    width: 100%;
+    padding: 1%;
+    background-color: #567BDC;
+    color: white;
+    border-radius: 3px;
+    border: 3px solid #567BDC;
 }
 
 .search-section {
@@ -28,15 +37,6 @@ main {
 .search {
     border-bottom: .75px solid black;
     padding-bottom: 15px;
-}
-
-.search-button {
-    width: 100%;
-    padding: 1%;
-    background-color: #567BDC;
-    color: white;
-    border-radius: 3px;
-    border: 3px solid #567BDC;
 }
 
 .search-header {
