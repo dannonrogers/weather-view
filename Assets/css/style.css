@@ -30,6 +30,10 @@ main {
     border: 3px solid #567BDC;
 }
 
+.icon-image {
+    border: 1px dashed black;
+}
+
 .search-section {
     width: 20vw;
 }
@@ -89,7 +93,7 @@ main {
     font-size: large;
 }
 
-.future-forecast {
+.future-forecast-card {
     background: #262E3E;
     color: white;
     padding: 10px 0 20px 7px;
@@ -99,6 +103,6 @@ main {
     margin: 10px 20px 0 0;
 }
 
-.future-forecast > p {
+.future-forecast-card > p {
     margin: 25px 0;
 }
